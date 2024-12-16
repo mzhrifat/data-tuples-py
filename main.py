@@ -8,7 +8,18 @@ _immutable data type
 
 tuple methods
 -count():return no.of occurences TIMES A specified value appars in the tuple
--index()
+-index():Returns the index of the first occurence appears in the tuple
+
+Converting between Lists anD Tuples
+-Tuple slicing
+-looping Through a Tuple
+
+tuples use case
+_Immutable data storage
+-Returm multiple values
+-fixes collecyios
+-database records
+-
 """
 
 
@@ -25,3 +36,11 @@ print(valueCount)
 numbers=(1,2,3,2,4,2)
 valueIndex=numbers.index(3)
 print(valueIndex)
+
+fruits=("apple","banana","cherry","MANGO","gRAPE")
+
+print(fruits[1:3])
+
+ruits=("apple","banana","cherry","MANGO","gRAPE")
+for item in fruits:
+print(item)
